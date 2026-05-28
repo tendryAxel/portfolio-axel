@@ -2,6 +2,7 @@ import { Provider } from "@/components/ui/provider";
 import { ColorModeButton } from "@/components/ui/color-mode";
 import { Box, HStack, Heading, Link, Text, Flex } from "@chakra-ui/react";
 import Navbar from '@/sections/NavBar';
+import Hero from "./sections/Hero";
 
 export function App() {
   return (
@@ -11,6 +12,11 @@ export function App() {
             { label: "Home", href: "#" },
           ]}
         />
+
+      <Flex direction="column">
+        <Hero />
+      </Flex>
+        
       <Flex direction="column">
         {/* Header */}
         <Box as="header" w="full" py={4} px={8} borderBottomWidth="1px">
