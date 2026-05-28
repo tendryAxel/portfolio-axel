@@ -1,4 +1,3 @@
-import "./index.css";
 import { Provider } from "@/components/ui/provider";
 import { ColorModeButton } from "@/components/ui/color-mode";
 import { Box, HStack, Heading, Link, Text, Flex } from "@chakra-ui/react";
