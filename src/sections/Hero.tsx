@@ -22,7 +22,7 @@ const Hero = () => {
         </Heading>
 
         <Text fontSize={{ base: "md", md: "lg" }} color="gray.300">
-          Backend Developer • Java • Python
+          Backend Developer • Java • Python • Spring boot
         </Text>
 
         <Stack direction="row" gap={4} justify="center">
